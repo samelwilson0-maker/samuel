@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.two,h3{
+/* margin-left: 400px; */
+text-align: center;
+text-transform: lowercase;
+}
+
+.six{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+.four{
+    margin-left: 600px;
+    
+}
+
+a{
+border: 2px solid black;
+text-transform: capitalize;
+padding: 5px 20px;
+text-decoration: none;
+}
+
+
+.five{
+text-align: center;
+}
+
+nav ul{
+    float: right;
+}
+
+nav{
+    background: black;
+    line-height: 10vh;
+    height: 10vh;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    padding: 0px 20px;
+}
+nav .btn{
+    border: 2px solid brown;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+nav ul li a:hover:not(.btn){
+    color:red ;
+}
+
+nav .btn:hover{
+    background-color: brown;
+    color: white;
+}
+
+
